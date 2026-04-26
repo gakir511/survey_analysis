@@ -18,23 +18,24 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: COMP 110 Survey Analysis and Conclusion
+email: gakir511@unc.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
-
+  Students taking COMP 110 at UNC Chapel Hill were asked to not only participate in a survey about the course, but then use their previously acquired programming skills to analyze the data and find meaningful results. Here, we find the relationship between prior programming experience and perceived course difficulty. 
+baseurl: "/survey_analysis" # the subpath of your site, e.g. /blog
+url: "gakir511.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: gakir511
+github_username:  gakir511
+#jekyll
 # Build settings
 # Build settings
-remote_theme: "jekyll/minima@1e8a445"
+# remote_theme: "jekyll/minima@1e8a445"
 
+# plugins:
+#   - jekyll-remote-theme
+remote_theme: pages-themes/midnight@v0.2.0
 plugins:
-  - jekyll-remote-theme
+- jekyll-remote-theme # add this line to the plugins list if you already have one
 #- jekyll-feed
 # Exclude from processing.
 # The following items will not be processed, by default.
