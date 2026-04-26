@@ -29,10 +29,10 @@ github_username:  gakir511
 # jekyll
 # Build settings
 # Build settings
-remote_theme: "pages-themes/midnight@v0.2.0"
-
+# remote_theme: "pages-themes/midnight@v0.2.0"
+theme: jekyll-theme-midnight
 plugins:
-  - jekyll-remote-theme
+  - jekyll-feed
 #- jekyll-feed
 # Exclude from processing.
 # The following items will not be processed, by default.
