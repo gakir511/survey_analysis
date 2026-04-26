@@ -18,19 +18,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: COMP 110 Survey Analysis and Conclusion
+title: COMP 110 Survey Analysis
 email: gakir511@unc.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Students taking COMP 110 at UNC Chapel Hill were asked to not only participate in a survey about the course, but then use their previously acquired programming skills to analyze the data and find meaningful results. Here, we find the relationship between prior programming experience and perceived course difficulty. 
+  Students...
 baseurl: "/survey_analysis" # the subpath of your site, e.g. /blog
 url: "gakir511.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: gakir511
 github_username:  gakir511
 # jekyll
 # Build settings
-# Build settings
-remote_theme: "pages-themes/midnight@v0.2.0"
-
+remote_theme: pages-themes/midnight@v0.2.0
 plugins:
   - jekyll-remote-theme
 #- jekyll-feed
