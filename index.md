@@ -14,7 +14,7 @@ We first imported two survey datasets using the read_csv_rows function and combi
 To visualize the distribution of prior experience among surveyed students. We ran the count function to identify where most students are in their programming journey. From this, we created a bar chart using the seaborn library, which revealed that the vast majority of students have no prior programming experience, establishing that beginner-targeted resources would have a wide reach.
 
 <div style="text-align: center;">
-  <img src="static/imgs/barchart correct.png" width="500"/>
+  <img src="static/imgs/barchart correct.png" width="700"/>
 </div>
 
 We then calculated the correlation coefficient between prior experience and perceived difficulty, finding a value of -0.36. This moderate negative relationship indicates that as prior experience increases, perceived difficulty decreases. We further found a correlation of -0.15 between prior experience and office hour visits per assignment, suggesting that less experienced students also seek more 1-1 support.
@@ -22,11 +22,11 @@ To do this, we first had to quantify the relationship between prior experience a
 
 
 <div style="text-align: center;">
-  <img src="static/imgs/diff_exp_linegraph.png" width="500"/>
+  <img src="static/imgs/diff_exp_linegraph.png" width="400"/>
 </div>
 
 <div style="text-align: center;">
-  <img src="static/imgs/oh_exp_linegraph.png" width="500"/>
+  <img src="static/imgs/oh_exp_linegraph.png" width="400"/>
 </div>
 
 Both graphs visualize the negative relationship between prior experience and perceived difficulty.
