@@ -21,7 +21,7 @@ To do this, we first had to quantify the relationship between prior experience a
 
 <img src="static/imgs/diff_exp_linegraph.png" width="500"/>
 
-<img src="static/imgs/oh_exp_linepgraph.png" width="500"/>
+<img src="static/imgs/oh_exp_linegraph.png" width="500"/>
 
 Both graphs visualize the negative relationship between prior experience and perceived difficulty.
 
