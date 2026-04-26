@@ -29,11 +29,6 @@ github_username:  gakir511
 # jekyll
 # Build settings
 # Build settings
-<<<<<<< HEAD
-# remote_theme: "pages-themes/midnight@v0.2.0"
-=======
-remote_theme: "pages-themes/midnight@v0.2.0"
->>>>>>> 2c883060ad4414a8b808fcd282b97763e21cd10a
 theme: jekyll-theme-midnight
 plugins:
   - jekyll-feed
